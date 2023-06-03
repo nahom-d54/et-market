@@ -4,19 +4,19 @@ const Header = () => {
         <>
         <header>
             <div className="brand">
+                {/* optionally logo */}
                 <h3>
                 Site Name
                 </h3>
-                {/* optionally logo */}
             </div>
             <nav>
                 <ul>
-                    <li>My messages</li>
+                    <li><p>My Messages</p></li>
                     <li className='profile'>
                         <div className="img"></div>
                         Profile
                     </li>
-                    <li className="special btn">Sell</li>
+                    <li className="special"><a href="" className="btn">Sell</a></li>
                 </ul>
             </nav>
         </header>

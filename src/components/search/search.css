@@ -1,7 +1,21 @@
 .not-form {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    margin: 30px auto;
+
 }
 .not-form input {
     margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: #000 1px solid;    
+}
+.not-form input:focus {
+    outline: gray solid 2px;
+}
+.btn {
+    border: none;
+    width: 100%;
+    margin: 0;
 }

@@ -1,0 +1,7 @@
+.hero-img {
+    background: linear-gradient(90deg, 
+	#000 0%, rgb(0, 0, 0) 50%, 
+	rgba(0, 0, 0,1) 50%, rgba(0,0,0,0.2) 100%),url('/market_bg.jpg') no-repeat right center fixed;
+    background-size: cover;
+    
+}

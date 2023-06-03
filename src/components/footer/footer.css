@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-evenly;
+    background: gray;
+    margin-top: 2rem;
+}
+footer > div {
+    display: flex;
+    flex-direction: column;
+}
