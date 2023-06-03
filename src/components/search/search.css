@@ -1,0 +1,7 @@
+.not-form {
+    display: flex;
+    flex-direction: column;
+}
+.not-form input {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit:fill;
+  object-position: center;
+  border-radius: inherit;
+  
+}
+ul li {
+  list-style-type: none;
+}
+input {
+  padding: 0.4rem;
+  font-size: 1em;
+}
+.btn {
+  margin: 0;
+  padding: 7px 13px;
+  background: rgb(179, 176, 176);
+  border-radius: 10px;
+  margin: 0 5px;
+  display: block;
+  font-size: 0.9em;
+  cursor: pointer;
+}
