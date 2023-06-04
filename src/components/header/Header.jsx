@@ -13,7 +13,7 @@ const Header = () => {
                 <ul>
                     <li><p>My Messages</p></li>
                     <li className='profile'>
-                        <div className="img"></div>
+                        <div className="img"><span>N</span></div>
                         Profile
                     </li>
                     <li className="special"><a href="" className="btn">Sell</a></li>

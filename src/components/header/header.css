@@ -20,7 +20,14 @@ header .img {
     background: gray;
     border-radius: 50%;
     margin-right: 5px;
+    position: relative;
 }
+.img span {
+    color: aqua;
+    position: absolute;
+    transform: translateX(95%) translateY(30%);
+}
+
 .profile {
     display: flex;
     align-items: center;
